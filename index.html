@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Aritmatika</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <h1>Kalkulator Aritmatika</h1>
+
+    <label>Angka 1: <input type="number" id="angka1"></label>
+    <label>Angka 2: <input type="number" id="angka2"></label>
+
+    <button onclick="hasil()">Submit</button>
+
+    <h2>Hasil</h2>
+<table class="result-table">
+    <tr>
+        <th>Operasi</th>
+        <th>Hasil</th>
+    </tr>
+    <tr>
+        <td>Penjumlahan</td>
+        <td id="hasil-tambah"></td>
+    </tr>
+    <tr>
+        <td>Pengurangan</td>
+        <td id="hasil-kurang"></td>
+    </tr>
+    <tr>
+        <td>Perkalian</td>
+        <td id="hasil-kali"></td>
+    </tr>
+    <tr>
+        <td>Pembagian</td>
+        <td id="hasil-bagi"></td>
+    </tr>
+    <tr>
+        <td>Modulus</td>
+        <td id="hasil-modulus"></td>
+    </tr>
+    <tr>
+        <td>Pangkat</td>
+        <td id="hasil-pangkat"></td>
+    </tr>
+</table>
+
+
+    <script src="assets/styles/script.js"></script>
+    </div>
+</body>
+</html>
